@@ -20,16 +20,6 @@ python3 calibration_scheduler.py
 ```
 By default, this will process FD001–FD004 in sequence. Adjust configuration in `Config` (dataset selection, margins, costs, quantiles).
 
-## Plots and artifacts
-Figures used in the paper (moved to repo root for convenience):
-- `drift_sensor_correlations.png` — monotonicity of sensors on FD001
-- `threshold_example.png` — drift sensors and TTD labels
-- `data_adaptation_flow.png` — adaptation pipeline (threshold, splice, TTD)
-- `scheduler_flow.png` — risk-aware scheduling flow
-- `lstm_training.png`, `transformer_training.png`, `cnn_training.png`, `tcn_training.png` — training curves
-- `transformer_pred_vs_true.png`, `transformer_residuals.png` — prediction quality
-- `priority_hist.png` — calibration priority distribution
-
 ## Citation
 If you use this codebase, please cite the accompanying paper or reference this repository:
 ```
